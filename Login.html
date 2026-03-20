@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="assets/Style.css">
+    <script type="module" src="assets/js/Javascript.js"></script>
+</head>
+
+<body>
+    
+    <div class="form" id="form">
+        <h1>Login</h1>
+        <div class="input" id="input" autocomplete="on">
+            <input class="info" type="text" placeholder="Email" id="email" required>
+        </div>
+        <div class="input" id="input" autocomplete="on">
+            <input class="info" type="password" placeholder="Password" id="password" required>
+        </div>
+
+        <a href="#" class="forgot-password" onclick="resetPassword()">Forgot Password?</a>
+
+        <div class="button-box" id="button-box">
+          <button id="login" onclick="login()" >Login</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
