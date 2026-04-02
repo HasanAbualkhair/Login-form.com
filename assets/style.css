@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100svh;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -146,6 +146,49 @@ button{
     font-weight: 500;
     transition: 0.3s ; 
 }
+
+/* Start of Media Query responsive website for 768px screens */
+
+@media screen and (max-width: 768px) {
+
+    /* Changes reflects on screen with a width of 768px and below */
+
+
+}
+
+/* End of Media Query responsive website for 768px screens */
+
+
+/* Start of Media Query responsive website for 480px screens */
+
+@media  screen and (max-width: 480px) {
+    
+    
+    
+}
+
+/* End of Media Query responsive website for 480px screens */
+
+
+/* Start of Media Query responsive website for 390px screens */
+
+@media  screen and (max-width: 390px) {
+
+   
+}
+
+/* End of Media Query responsive website for 390px screens */
+
+
+/* Start of Media Query responsive website for 360px screens */
+
+@media  screen and (max-width: 360px) {
+
+
+}
+
+/* End of Media Query responsive website for 360px screens */
+
 
 
 
