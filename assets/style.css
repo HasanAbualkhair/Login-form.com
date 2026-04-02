@@ -14,7 +14,6 @@ body{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    overscroll-behavior: none;
     background-image: url(Background/space-galaxy-background.jpeg);
     background-size: cover;
     background-position: center;
@@ -147,6 +146,74 @@ button{
     font-weight: 500;
     transition: 0.3s ; 
 }
+
+/* Start of Media Query responsive website for 768px screens */
+
+@media screen and (max-width: 768px) {
+
+    /* Changes reflects on screen with a width of 768px and below */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    overscroll-behavior: none;
+   }
+}
+
+/* End of Media Query responsive website for 768px screens */
+
+
+/* Start of Media Query responsive website for 480px screens */
+
+@media  screen and (max-width: 480px) {
+
+    body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    overscroll-behavior: none;
+   }
+
+}
+
+/* End of Media Query responsive website for 480px screens */
+
+
+/* Start of Media Query responsive website for 390px screens */
+
+@media  screen and (max-width: 390px) {
+
+    body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    overscroll-behavior: none;
+   }
+
+}
+
+/* End of Media Query responsive website for 390px screens */
+
+
+/* End of Media Query responsive website for 360px screens */
+
+@media  screen and (max-width: 360px) {
+
+    body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    overscroll-behavior: none;
+   }
+
+}
+
+/* End of Media Query responsive website for 360px screens */
+
 
 
 
