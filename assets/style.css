@@ -157,8 +157,9 @@ body{
     padding: 0;
     height: 100vh;
     overflow-y: hidden;
-    overscroll-behavior-y: none;
-   }
+    overflow-x: hidden;
+}
+
 }
 
 /* End of Media Query responsive website for 768px screens */
@@ -173,7 +174,7 @@ body{
     padding: 0;
     height: 100vh;
     overflow-y: hidden;
-    overscroll-behavior-y: none;
+    overflow-x: hidden;
    }
 
 }
@@ -190,7 +191,7 @@ body{
     padding: 0;
     height: 100vh;
     overflow-y: hidden;
-    overscroll-behavior-y: none;;
+    overflow-x: hidden;
    }
 
 }
@@ -207,7 +208,7 @@ body{
     padding: 0;
     height: 100vh;
     overflow-y: hidden;
-    overscroll-behavior-y: none;
+    overflow-x: hidden;
    }
 
 }
