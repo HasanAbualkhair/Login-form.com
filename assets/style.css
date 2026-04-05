@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgba(8, 29, 144, 0.991);
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(Background/space-galaxy-background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 27px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(249, 249, 250, 0.475);
+}
+
+.form h1{
+    margin-bottom: 20px;
+    color: rgba(249, 249, 250, 0.475);
+}
+
+.input{
+    margin-bottom: 20px;
+}
+
+.info{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 230px;
+    box-shadow: 0 0 8px rgba(249, 249, 250, 0.475);
+}
+
+ #email:focus{
+    outline: none;
+    box-shadow: 0 0 10px rgba(8, 29, 144, 0.991);
+
+}
+
+#password:focus{
+    outline: none;
+    box-shadow: 0 0 10px rgba(172, 53, 53, 0.991);
+
+}
+
+.forgot-password{
+    display: block;
+    color: rgba(249, 249, 250, 0.475);
+    text-decoration: none;
+}
+
+.forgot-password:hover{
+    text-decoration: underline;
+    color: rgba(249, 249, 250, 0.991);
+    transition: 0.3s;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button{
+    padding: 10px 50px 10px 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(249, 249, 250, 0.991);
+    box-shadow: 0 0 10px rgba(249, 249, 250, 0.475);
+}
+
+.input #eye{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 10.5px;
+    cursor: pointer;
+    color: rgba(33, 33, 47, 0.235);
+}
+
+.input #eye:hover{
+    color: rgba(172, 53, 53, 0.991);
+    transition: 0.3s;
+}
+
+.remember-me{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-right: 105px;
+    margin-bottom: 20px;
+    color: rgba(249, 249, 250, 0.475);
+}
+
+.remember-me:hover{
+    color: rgba(249, 249, 250, 0.991);
+    transition: 0.3s;
+}
+
+#remember-me[type="checkbox"]{
+    margin-right: 5px;
+    cursor: pointer;
+    accent-color: rgba(42, 126, 203, 0.991);
+    -webkit-transform: scale(0.8); /* Safari and Chrome */
+    -moz-transform: scale(0.8); /* Firefox */
+    -ms-transform: scale(0.8); /* Internet Explorer */
+    -o-transform: scale(0.8); /* Opera */
+    transform: scale(0.8);
+}
+
+
+#login{
+    color: rgba(42, 126, 203, 0.991);
+}
+
+#login:hover{
+    background-color: rgba(42, 126, 203, 0.991);
+    color: white;
+    transition: 0.3s;
+}
+
+#error-message {
+    min-height: 20px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 500;
+    transition: 0.3s ; 
+}
